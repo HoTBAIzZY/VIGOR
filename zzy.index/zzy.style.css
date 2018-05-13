@@ -1,0 +1,610 @@
+ul
+{
+	margin: 0;
+}
+
+header
+{
+	background:rgba(0,0,0,0.4);
+}
+
+nav
+{
+     background: transparent;
+     height:50px;
+}
+
+
+#banner
+{
+   background: transparent;
+   height: 700px;
+}
+
+#banner .inner
+{
+	max-width:300px;
+	text-align:center;
+	margin: 0 auto;
+	position:relative;
+	top: 160px;
+}
+
+#banner .inner h1
+{
+	margin: 0;
+}
+
+
+nav ul
+{
+    list-style: none;
+    margin: 0;
+    float:right;
+}
+
+nav ul li,nav .logo
+{
+     display: inline-block;
+     line-height:50px;
+     margin-right: 20px;
+}
+
+nav ul li a
+{
+	line-height:50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color:#fff;  
+}
+
+nav ul li.logo
+{
+	float: left;
+	padding: 10px;
+}
+
+.a
+{
+	font-size:40px;
+}
+
+.a1
+{
+	font-weight:500;/*无法加粗？？？？*/
+	font-size: 30px;
+	color: green;
+	
+}
+.a2
+{
+	font-size: 40px;
+	font-weight:500;
+	color: green;
+}
+.a3
+{
+	font-size: 50px;
+	font-weight:500;
+	color: green;
+}
+
+
+.mainwrapper
+{
+	background:url(./dsx.jpg);
+	background-attachment: fixed;/*图片固定*/
+	background-repeat: no-repeat;/*图片不重复*/
+	background-size: cover;/*封面填充*/
+	background-position: center center; /*图片居中*/
+}
+
+
+
+button
+{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding:14px 40px;
+}
+
+.learnmyhometown
+{
+	color: green;
+	text-decoration:none;/*去掉下划线*/
+	display: inline-block;/*扩展点击范围*/
+
+}
+
+#banner button
+{
+	padding:14px 60px;
+}
+
+#banner.inner.more
+{
+ margin-top: 200px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin:30px;
+}
+
+.logo
+{
+	font-size:20px;
+	font-weight:700px;
+	letter-spacing:1px;   
+}
+
+.logo a
+{
+	color: #fff;
+}
+
+.hr
+{
+     width: 100%;
+     height: 2px;
+     margin: 20px auto;
+}
+
+.sub-heading
+{
+	font-size: 18px;
+}
+
+
+
+
+
+#greensection
+{
+   text-align: center;
+	background: #089db0;
+	height: 500px;
+}
+
+
+.wrapper
+{
+	max-width: 300px;
+	margin:0px auto;
+	color: #fff;
+	padding: 100px 0px;
+}
+
+
+.greensection.hr
+{
+	background: #078494;
+	width:60%;
+}
+
+.icon
+{
+	font-size: 30px;
+
+}
+
+.icongroup .icon
+{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: #0D6F7C;
+	transform: rotate(45deg);
+	margin: 20px;
+	border: 10px solid #0d6f7c ;/*加方框*/
+	text-align: center;
+}
+
+.icon1
+{ 
+	transform: rotate(-45deg);
+	margin:22px auto;
+}
+
+.icon2
+{ 
+	transform: rotate(-45deg);
+	margin:22px auto;
+}
+
+
+.icon3
+{ 
+	transform: rotate(-45deg);
+	margin:22px auto;
+}
+
+.icon4
+{ 
+	transform: rotate(-45deg);
+	margin:22px auto;
+}
+
+.icon5
+{ 
+	transform: rotate(-45deg);
+	margin:22px auto;
+}
+
+
+
+
+.graysection .articlepreview .imgsection
+{
+	width: 45%;
+}
+
+
+.graysection .textsection
+{
+	width: 55%;
+	position: relative;
+	top: 20px;
+	font-family:"楷体";
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.graysection .articlepreview
+{
+	background: #252f34;
+	color: #fff;
+}
+
+.articlepreview > div
+{
+	float:right;
+	font-size: 0; 
+}
+
+
+.articlepreview:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+.graysection .articlepreviewe .imgsection
+{
+	width: 45%;
+}
+
+
+.graysection .textsection
+{
+	width: 55%;
+	position: relative;
+	top: 20px;
+	font-family:"楷体";
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.graysection .articlepreviewe
+{
+	background: #252f34;
+	color: #fff;
+}
+
+.articlepreviewe > div
+{
+	float:left;
+	font-size: 0; 
+}
+
+
+.articlepreviewe:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+.graysection .articlepreviewee .imgsection
+{
+	width: 45%;
+}
+
+
+.graysection .textsection
+{
+	width: 55%;
+	position: relative;
+	top: 20px;
+	font-family:"楷体";
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.graysection .articlepreviewee
+{
+	background: #252f34;
+	color: #fff;
+}
+
+.articlepreviewee > div
+{
+	float:right;
+	font-size: 0; 
+}
+
+
+.articlepreviewee:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+.graysection .articleprevieweee .imgsection
+{
+	width: 45%;
+}
+
+
+.graysection .textsection
+{
+	width: 55%;
+	position: relative;
+	top: 20px;
+	font-family:"楷体";
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.graysection .articleprevieweee
+{
+	background: #252f34;
+	color: #fff;
+}
+
+.articleprevieweee > div
+{
+	float:left;
+	font-size: 0; 
+}
+
+
+.articleprevieweee:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.text-section
+{
+	position: relative;
+	top: 68px;
+	left: 50px;
+}
+
+.text-section h2
+{
+	margin-bottom: 20px;
+}
+
+.text-section p
+{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.text-section > *{
+	max-width: 90%;
+}
+
+
+
+.purplesection .headingwrapper
+{
+	padding: 100px;
+	background: #98979a;
+	color: #fff;
+    text-align: center;
+}
+
+.card
+{
+	margin: 20px;
+	background: #98979a;
+	color: #fff;
+
+}
+
+.smalltitle
+{
+	font-family:"华文新魏";
+	font-size: 30px; 
+}
+
+
+.hr2
+{
+	max-width: 1060px;
+	margin:20px auto;
+}
+
+
+
+.cardpicture1
+{
+	width: 35%;
+	margin-right: 300px;
+}
+
+.cardd
+{ 
+	max-width: 400px;
+	width: 35%;
+	position: relative;
+	top: 20px;
+	font-family:"华文琥珀";
+	font-size: 20px;
+	text-align: center;
+	color: #7300a5;
+
+}
+
+
+.doc1 > div  /*对于紧跟着的一个div进行操作*/
+{
+  float:right;
+ /* font-size: 0;*/
+}
+
+.doc1:after  /*使移动的文字显现  原理解释不清楚*/
+{
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+
+.cardpicture2
+{
+	width: 35%;
+	margin-left: 300px;
+}
+
+.carddd
+{ 
+	max-width: 400px;
+	width: 35%;
+	position: relative;
+	top: 20px;
+	font-family:"华文琥珀";
+	font-size: 20px;
+	text-align: center;
+    color: #010000;
+}
+
+
+.doc2 > div  /*对于紧跟着的一个div进行操作*/
+{
+  float:left;
+ /* font-size: 0;*/
+}
+
+.doc2:after  /*使移动的文字显现  原理解释不清楚*/
+{
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+
+.cardpicture3
+{
+	width: 35%;
+	margin-right: 300px;
+}
+
+.cardddd
+{ 
+	max-width: 400px;
+	width: 35%;
+	position: relative;
+	top: 20px;
+	font-family:"华文彩云";
+	font-size: 20px;
+	text-align: center;
+
+}
+
+
+.doc3 > div  /*对于紧跟着的一个div进行操作*/
+{
+  float:right;
+ /* font-size: 0;*/
+}
+
+.doc3:after  /*使移动的文字显现  原理解释不清楚*/
+{
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+.cardpicture4
+{
+	width: 35%;
+	margin-left: 300px;
+}
+
+.carddddd
+{ 
+	max-width: 400px;
+	width: 35%;
+	position: relative;
+	top: 20px;
+	font-family:"华文彩云";
+	font-size: 20px;
+	text-align: center;
+    color:#56d581 
+}
+
+
+.doc4 > div  /*对于紧跟着的一个div进行操作*/
+{
+  float:left;
+ /* font-size: 0;*/
+}
+
+.doc4:after  /*使移动的文字显现  原理解释不清楚*/
+{
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+footer
+{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
+
+footer ul li   
+{
+ display: inline-block;
+}
+
+.sharegroup
+{
+	padding-top: 50px;
+	margin:0 auto;
+}
+
+.copy
+{
+	margin-top:200px;
+}
+
+.sharegroup li a
+{
+    text-decoration:none;/*去掉下划线*/
+    font-size: 20px;
+    color: #2b86fb;
+}
